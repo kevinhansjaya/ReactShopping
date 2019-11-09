@@ -1,6 +1,6 @@
 {
     
-    "mongoURI":"mongodb+srv://kevinhansjaya89:mongoDB@123@mernshopping-bjnzw.mongodb.net/mern_shopping?retryWrites=true&w=majority",
+  "mongoURI":"mongodb+srv://kevinhansjaya89:mongoDB@123@mernshopping-bjnzw.mongodb.net/mern_shopping?retryWrites=true&w=majority",
     "jwtSecret":"sl_myJwtSecret"
    
   }
