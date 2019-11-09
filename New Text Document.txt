@@ -1,0 +1,36 @@
+C:\Users\kevin hansjaya\AppData\Roaming\npm\node_modules\create-react-app
+
+
+setup server side:
+1. npm init => fill description if want, entry point "server.js" for full stactk, MIT lciense
+2. npm i express body-parser mongoose concurrently
+3. npm i -D nodemon (for development purpose)
+4. open package.json change "test" to "start" :"node server.js", add new variable "server":"nodemon server.js"
+5. setup server.js
+6. create keys.js in config folder for connection mongoose
+7. create Item.js in models for defines collection schema
+8. create item.js in routes/api for GET,POST,DELETE
+
+setup client side:
+
+1. npm i -g create-react-app
+2. go to client side folder
+3. create-react-app .
+4. open package.json file SERVER, add new script 
+	"client": "npm start --prefix client" 
+ 	"dev": "concurrently \"npm run server\" \" npm run client\""
+ 	"client-install": "npm install --prefix client"
+5. delete file logo,index.css, and clean app.js header
+6. go to client terminal => npm i bootstrap reactstrap uuid react-transition-group
+7. go to for library https://reactstrap.github.io/components/navbar/ 
+8. create AppNavbar.js sample
+9. edit app.js and call appnavbar.js
+
+
+create ShoppingList.js:
+1.create route shoppinglist and learn create button and state item and uuid sample
+2. learn add item state and delete item state
+3. learn create css className fade
+
+
+react redux:
